@@ -26,7 +26,7 @@ etl_lab/
 │
 ├── etl_load.ipynb
 ├── README.md
-└── .gitignore
+
 
 ---
 
