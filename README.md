@@ -1,13 +1,15 @@
 # DSA 2040A Load Phase — ETL Project
 
 ## Overview
-This project focuses on the **Load Phase** of the ETL (Extract, Transform, Load) pipeline.  
-The goal is to load previously transformed datasets into persistent storage formats — **SQLite** and **Parquet** — and verify successful data loading.
+This project demonstrates the **Load Phase** of the ETL (Extract, Transform, Load) pipeline.  
+The focus is to load previously transformed datasets into a **SQLite** database and verify the successful load process.
+
+---
 
 ## Objectives
-- Load cleaned and transformed data into SQLite databases and Parquet files.
-- Verify that all records, column names, and data types are intact after loading.
-- Maintain a well-structured and professional GitHub repository.
+- Load transformed datasets into a SQLite database.
+- Verify data integrity by reading a sample of records.
+- Maintain a clean, professional, and well-documented GitHub repository.
 
 ---
 
@@ -32,10 +34,8 @@ etl_lab/
 
 ## Tools and Libraries
 - **Python 3.13**
-- **pandas** — Data manipulation and loading
-- **sqlite3** — SQLite database engine (built into Python)
-- **pyarrow / fastparquet** — For Parquet file support
-
+- **pandas** — for data loading and inspection  
+- **sqlite3** — built-in Python library for SQLite database management
 ---
 
 ## Load Implementation Summary
